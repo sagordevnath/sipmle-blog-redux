@@ -54,27 +54,7 @@ const Blogs = () => {
         <div className="bg-gray-50 h-1/3 sm:h-2/3"></div>
       </div>
       <div className="relative max-w-7xl mx-auto">
-        {/* <Hero />
-        {(search || category || author) && (
-          <div className="border mt-6 border-slate-200 justify-between flex items-center w-11/12 lg:w-1/2 mx-auto bg-gray-50 h-12 px-5 rounded-lg text-sm ring-emerald-200">
-            <span className="outline-none border-none bg-gray-50 h-full flex items-center  w-full mr-2  max-w-2xl mx-auto text-xl text-gray-700 ">
-              Search Results for:{" "}
-              <span className="font-bold pl-2">
-                {search || category || author}
-              </span>
-            </span>
-            {!search && (category || author) && (
-              <div>
-                <FontAwesomeIcon
-                  onClick={handleRemoveFilter}
-                  className="text-red-500 text-lg cursor-pointer"
-                  icon={faX}
-                />
-              </div>
-            )}
-          </div>
-        )} */}
-
+        
         {/* <!-- card grid  --> */}
         {(search && noSearchFilter.length <= 0) ||
         (search && author && category && noAuthorCategoryFilter.length <= 0) ? (

@@ -29,28 +29,6 @@ const SearchBar = () => {
 
   const debouncedSearch = debounce(handleChange, 1000);
 
-  //debounce to console event
-  // const debounce = (callback, delay) => {
-  //   let timeoutId;
-  //   return (event) => {
-  //     if (timeoutId) {
-  //       clearTimeout(timeoutId);
-  //     }
-  //     timeoutId = setTimeout(() => {
-  //       callback(event);
-  //     }, delay);
-  //   };
-  // };
-
-  // const handleSearch = (e) => {
-  //   e.preventDefault();
-  //   debounce(
-  //     () => {
-  //       console.log(e.target.value);
-  //     }
-  //     , 1000)(e);
-  // }
-
   const handleRemoveSearchFilter = () => {
     dispatch(removeSearchFilter());
     document.getElementById("search").value = "";

@@ -5,9 +5,9 @@ export const initialState = {
         title: "Component Based React Application Development with Redux",
         author: "Jhankar Mahbub",
         blogImg:
-          "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+          "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
         authorImg:
-          "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+          "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
         category: "JavaScript",
         date: "11 Jul, 2022",
         readTime: "5 min read",
@@ -19,7 +19,7 @@ export const initialState = {
         blogImg:
           "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         authorImg:
-          "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "https://yt3.ggpht.com/ytc/AMLnZu9qwWLjx8qLFObE0TDxQytCm3kAy02qy3cnv-tWew=s900-c-k-c0x00ffffff-no-rj",
         category: "React",
         date: "05 Feb, 2022",
         readTime: "8 min read",
@@ -27,11 +27,11 @@ export const initialState = {
       {
         id: "3",
         title: "How to use search engine optimization to drive sales",
-        author: "Saidur Rahman Setu",
+        author: "Sumit Saha",
         blogImg:
           "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         authorImg:
-          "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "https://pbs.twimg.com/profile_images/874172653405327360/QyysiBs5_400x400.jpg",
         category: "NodeJS",
         date: "06 Jan, 2022",
         readTime: "10 min read",
@@ -142,18 +142,6 @@ export const initialState = {
         authorImg:
           "https://images.unsplash.com/photo-1617629642642-e36339a4d115?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         category: "React",
-        date: "10 Sep, 2021",
-        readTime: "7 min read",
-      },
-      {
-        id: "13",
-        title: "Code your first React component with create-react-component",
-        author: "Sumit Saha",
-        blogImg:
-          "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        authorImg:
-          "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        category: "JavaScript",
         date: "10 Sep, 2021",
         readTime: "7 min read",
       },

@@ -72,10 +72,10 @@ const Modal = () => {
   return (
     <div>
       <input type="checkbox" id="add-blog" className="modal-toggle" />
-      <label htmlFor="add-blog" className="modal cursor-pointer">
-        <label className="modal-box relative" htmlFor="">
+      <label for="add-blog" className="modal cursor-pointer">
+        <div className="modal-box relative" for="">
           <label
-            htmlFor="add-blog"
+            for="add-blog"
             className="btn btn-error btn-sm btn-circle absolute right-2 top-2"
           >
             ✕
@@ -144,12 +144,12 @@ const Modal = () => {
               </label>
             </div>
             <div className="form-control modal-action w-full max-w-xs mx-auto mt-3">
-              <button type="submit" className="btn btn-outline">
+              <button type="submit" className="btn btn-outline btn-accent">
                 Add Blog
               </button>
             </div>
           </form>
-        </label>
+        </div>
       </label>
     </div>
   );
